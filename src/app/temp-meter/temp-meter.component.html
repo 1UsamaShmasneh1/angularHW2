@@ -1,0 +1,5 @@
+<p>temp-meter</p>
+<input type="number" #insidenumber (change)="status(parseToInt(insidenumber.value))">
+<div>
+    {{tempDesc}}
+</div>
